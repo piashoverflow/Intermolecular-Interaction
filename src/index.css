@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  * {
+    border-color: rgba(186, 230, 253, 0.7);
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #f0f7ff;
+    color: #1e293b;
+  }
+}
+
+/* Custom smooth scrollbar for light blue lab panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(240, 249, 255, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(186, 230, 253, 0.9);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(125, 211, 252, 1);
+}

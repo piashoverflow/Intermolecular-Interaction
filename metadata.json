@@ -1,0 +1,6 @@
+{
+  "name": "Intermolecular Forces & Potential Energy Lab",
+  "description": "Interactive Lennard-Jones intermolecular forces and potential energy simulation for HSC Physics Chapter 7 with real-time vector analysis, dynamic graphs, and harmonic oscillation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
